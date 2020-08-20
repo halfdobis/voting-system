@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding: 0
+}
+.header{
+    background-color: rgb(35,43,61);
+    margin-top:20px;
+    color:#fff;
+    text-align: center;
+    border-radius: 8px; 
+    padding-bottom: 10px;    
+}
+.header-text{
+    padding-top:15px;
+    padding-bottom:15px;
+}
+.header-text h1{
+    color: #a7aab1;
+}
+#progressbar {
+  background-color: rgb(59,69,88);
+  border-radius: 20px;   
+}
+
+#progressbar>div {
+  background-color: #F7b354;  
+  height: 13px;
+  border-radius: 10px;
+}
+
+.row{
+    grid-column-gap: 40px;
+    justify-content: center;
+    position: relative;
+    animation: contestant 1s ease-in;    
+    animation-fill-mode: forwards;
+}
+@keyframes contestant{
+    0%{
+        left: -10%
+    }
+    100%{
+        left:0%; 
+    }
+}
+
+.main-col{
+    margin-top:30px;
+    border:2px double grey;  
+    border-radius: 5px;
+    animation: main-col;
+    box-shadow:  10px 5px 5px grey;
+}
+
+.main-col-content{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom:20px;       
+}
+@keyframes main-col{
+    0%{
+        box-shadow:  none;
+    }
+    100%{
+        box-shadow:  10px 5px 5px grey;
+    }
+}
+.left{
+    margin-left: 40px;
+}
+.main-col-img{
+    border-radius: 70%;
+}
+footer{
+    margin-top:50px;
+    text-align: center;
+}
+footer button{    
+    background-color: rgb(30, 42,90);
+    color: #fff;
+    padding-left:30px;
+    padding-right: 30px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    border-radius:8px;
+    text-decoration: none;  
+    border: none;  
+}
+footer p{
+    color: tomato;
+    padding-top: 20px;
+    font-weight: 600;
+}

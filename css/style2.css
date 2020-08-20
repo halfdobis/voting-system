@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding: 0
+}
+header h3{
+    text-align: center;
+    margin-top:20px;
+    color: rgb(16,16,16);
+}
+.main-col{
+    margin-top:30px;
+    border:2px double grey;  
+    border-radius: 5px;          
+}
+.row{
+    grid-column-gap: 40px;
+    justify-content: center;
+}
+.main-col-img{
+    border-radius: 50%;
+}
+.main-col-content{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    height:80px
+}
+.left{
+    margin-left: 30px;
+}
+.main-span{
+    position: absolute;
+    width: 58px;
+    height: 58px;
+    left: 300px;
+    top: 12px;
+    background-color: rgb(30,42,90);
+    border-radius: 50%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 55px;
+    text-align: center;
+    color: #FFFFFF;    
+}
+footer{
+    text-align: center;
+    margin-top:50px
+}
+#evicted{
+    margin-bottom:50px;
+    color: #18BBB6;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 50px;
+    animation-name: evicted;
+    animation-duration: 5s;
+}
+
+footer a{    
+    background-color: rgb(30, 42,90);
+    color: #fff;
+    padding-left:30px;
+    padding-right: 30px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    border-radius:8px;
+    text-decoration: none;    
+}
