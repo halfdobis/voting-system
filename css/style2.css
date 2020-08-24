@@ -2,6 +2,10 @@
     margin:0;
     padding: 0
 }
+body{
+    background: url(/img/image\ 1\ \(1\).png);
+    background-size: cover;
+}
 header h3{
     text-align: center;
     margin-top:20px;
